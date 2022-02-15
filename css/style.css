@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "rubik";
+  src: url(../shrift/rubikBeastly-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "russo";
+  src: url(../shrift/russoOne-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "2p";
+  src: url(../shrift/pressStart2P-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #000000;
+  font-family: sans-serif;
+  color: #fff;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+.start-papafun {
+  color: gold;
+  font-size: 200%;
+  text-align: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 15px 0px 15px 0px;
+  font-family: "russo";
+}
+.start-img {
+  width: 1895px;
+  height: 400px;
+  margin-left: -15.4em; /*Было -247px*/
+}
+.predislovie-papafun {
+  font-family: "russo";
+  margin-top: 1.3em; /*Было 20px*/
+  /* margin-left: -9.5em; Было -154px */
+}
+.wiki {
+  font-size: 150%;
+}
+.wiki-link {
+  color: gold;
+  font-size: 125%;
+  font-family: "rubik";
+  text-decoration: none;
+}
+.predislovie {
+  margin-top: 0.3em; /*Было 7px*/
+  margin-left: 1.3em; /*Было 32px*/
+  color: gold;
+  font-size: 150%;
+}
+.fact-papafun {
+  display: flex;
+  /* margin-top: 4em; Было 50px */
+  align-items: center;
+}
+.ten-fact {
+  margin-top: 2em;
+  font-size: 200%;
+}
+.ten-fact > dd {
+  margin-inline-start: 40px;
+}
+.Vitya {
+  color: gold;
+  font-family: "2p";
+}
+.chill-link {
+  margin-left: 3em;
+}
+.chill {
+  height: 550px;
+  margin-top: 4em;
+}
+.today-papafun {
+  margin-top: 4em;
+  margin-left: 10px;
+  margin-bottom: 4em;
+}
+.today-choose {
+  font-size: 200%;
+  text-align: center;
+  color: red;
+  margin-bottom: 1em;
+  font-family: "russo";
+}
+.foto-papafun {
+  width: 200px;
+  height: 200px;
+}
+.choose {
+  display: flex;
+}
+.papas {
+  margin-right: 0.66em; /*Было 6px*/
+  text-align: center;
+}
+.sort-papa {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+.sort-link {
+  border: 1px solid gold; /* Синяя рамка вокруг ссылок */
+  padding: 2px; /* Поля вокруг текста */
+  text-decoration: none;
+  color: white;
+  font-family: "rubik";
+}
+.sort-link:hover {
+  background: violet; /* Цвет фона при наведении на ссылку курсора */
+}
+.aud {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 0.5em;
+}
+.view-papa {
+  font-size: 0.8em;
+  font-family: "2p";
+}
+.grat {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 250%;
+  color: gold;
+  font-family: "russo";
+}
+.uknow {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 225%;
+  color: red;
+  font-family: "russo";
+}
+.iflike {
+  width: 1150px;
+  font-size: 142%;
+  font-style: italic;
+  margin-right: 1em;
+  font-family: "russo";
+}
+.social-ytb {
+  display: flex;
+  align-items: center;
+  margin-top: -2.2em; /*Было -35px*/
+  margin-left: 1160px;
+}
+.social-vk {
+  display: flex;
+  align-items: center;
+  margin-top: 0.9em; /*Было 15px*/
+  margin-left: 1160px;
+}
+.social-inst {
+  display: flex;
+  align-items: center;
+  margin-top: 0.6em; /*Было 10px*/
+  margin-left: 1160px;
+}
+.stream {
+  margin-right: 0.5em;
+  font-size: 120%;
+  font-family: "rubik";
+}
+.social-kart-ytb {
+  width: 50px;
+  height: 40px;
+}
+.social-kart-vk-inst {
+  width: 50px;
+  height: 50px;
+}
